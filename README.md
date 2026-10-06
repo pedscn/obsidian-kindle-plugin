@@ -1,5 +1,15 @@
 # Obsidian Kindle Plugin
 
+> [!NOTE]
+> This is a fork of [hadynz/obsidian-kindle-plugin](https://github.com/hadynz/obsidian-kindle-plugin)
+> with a fix for Amazon login. On current Obsidian versions, the Amazon sign-in window kicks you
+> out to your system browser after you enter your email, so sync never finishes. This fork keeps
+> the login inside the plugin window. The fix comes from upstream
+> [PR #338](https://github.com/hadynz/obsidian-kindle-plugin/pull/338) and addresses
+> [#337](https://github.com/hadynz/obsidian-kindle-plugin/issues/337).
+>
+> Everything else matches upstream. Use the main project for releases, issues and updates.
+
 ![CI/CD status](https://github.com/hadynz/obsidian-kindle-plugin/actions/workflows/main.yml/badge.svg)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/hadynz/obsidian-kindle-plugin)
 
